@@ -1,11 +1,6 @@
 #Just for testing
-s.echo("testing")
 v.testvar = s.string_clean("<html><body><p>Hello, World!</p></body></html>Tests!")
 
-if set v.testvar
-	s.echo("worked")
-end
-
-s.echo("Testing this again v.testvar |")
-
+s.echo("Testing in string: v.testvar")
+s.echo("<BR><BR>")
 s.echo(v.testvar)
