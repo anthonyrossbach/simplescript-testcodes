@@ -1,4 +1,9 @@
 #Just for testing
 s.echo("testing")
 v.testvar = s.string_base64_encode("<html><body><p>Hello, World!</p></body></html>Tests!")
-s.echo(v.testvar)
+
+if set v.testvar
+	s.echo("worked")
+end
+
+s.echo("v.testvar")
