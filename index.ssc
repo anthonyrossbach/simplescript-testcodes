@@ -1,1 +1,3 @@
 #Just for testing
+v.testvar = s.string_clean("<html><body><p>Hello, World!</p></body></html>")
+s.echo(v.testvar)
