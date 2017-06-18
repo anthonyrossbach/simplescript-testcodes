@@ -6,6 +6,6 @@ if set v.testvar
 	s.echo("worked")
 end
 
-s.echo("Testing this again v.testvar")
+s.echo("Testing this again v.testvar |")
 
 s.echo(v.testvar)
