@@ -1,4 +1,4 @@
 #Just for testing
 s.echo("testing")
-v.testvar = s.string_clean("<html><body><p>Hello, World!</p></body></html>Tests!")
+v.testvar = s.string_base64_encode("<html><body><p>Hello, World!</p></body></html>Tests!")
 s.echo(v.testvar)
