@@ -1,4 +1,5 @@
 #Just for testing
+s.system_debug("true")
 v.testvar = s.string_clean("<html><body><p>Hello, World!</p></body></html>Tests!")
 
 s.echo("Testing in string: v.testvar")
