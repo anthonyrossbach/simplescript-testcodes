@@ -14,3 +14,7 @@ f.pets{
   v.pet=v.function_passed[0]
   s.echo("Oh, did you know I have a v.pet?")
 }
+
+
+v.calculated=s.math("(10.2+0.5*(2-0.4))*2+(2.1*4)")
+s.echo(v.calculated)
